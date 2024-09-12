@@ -7,7 +7,7 @@ p, role:default/workflowAdmin, orchestrator.workflowInstance.abort, use, allow
 p, role:default/workflowAdmin, orchestrator.workflowInstances.read, read, allow
 p, role:default/workflowAdmin, orchestrator.workflowInstance.read, read, allow
 
-p, role:default/workflowAdmin, orchestrator.workflows.yamlgreet, read, allow
+p, role:default/workflowAdmin, orchestrator.workflows., read, allow
 
 g, user:default/guest, role:default/workflowViewer
 g, user:default/guest, role:default/workflowAdmin
